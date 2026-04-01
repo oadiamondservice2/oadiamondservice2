@@ -751,25 +751,6 @@ footer{background:var(--dk);color:rgba(255,255,255,.63);padding:56px 0 26px}
           </div>
         </div>
       </div>
-      <div class="cf">
-        <h3 id="ftit" contenteditable="false">Nachricht senden</h3>
-        <div class="fr">
-          <div class="fg"><label>Name</label><input type="text" placeholder="Ihr vollständiger Name"></div>
-          <div class="fg"><label>Telefon</label><input type="tel" placeholder="+49 ..."></div>
-        </div>
-        <div class="fg"><label>E-Mail</label><input type="email" placeholder="ihre@email.de"></div>
-        <div class="fg">
-          <label>Gewünschte Leistung</label>
-          <select>
-            <option>Leistung auswählen...</option>
-            <option>Grundreinigung</option><option>Büroreinigung</option><option>Gebäudereinigung</option>
-            <option>Hotelzimmerreinigung</option><option>Fensterreinigung</option><option>Treppenhausreinigung</option>
-            <option>Haushalthilfe</option><option>Baureinigung</option><option>Gaststättenreinigung</option>
-            <option>Schulen &amp; Kindergärten</option><option>Praxisreinigung</option><option>Sonstiges</option>
-          </select>
-        </div>
-        <div class="fg"><label>Ihre Nachricht</label><textarea placeholder="Beschreiben Sie Ihre Anfrage..."></textarea></div>
-        <button type="button" class="bsub" onclick="sendMsg()"><i class="fas fa-paper-plane"></i> Anfrage absenden</button>
       </div>
     </div>
   </div>
@@ -819,7 +800,7 @@ footer{background:var(--dk);color:rgba(255,255,255,.63);padding:56px 0 26px}
 
 <a id="waf" href="https://wa.me/4917672879642" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
 <button id="st" onclick="window.scrollTo({top:0,behavior:'smooth'})" class="vis"><i class="fas fa-chevron-up"></i></button>
-<div id="toast" class="">✅ Willkommen! Eigentümer-Modus aktiv.</div>
+<div id="toast" class="show">✅ Willkommen! Eigentümer-Modus aktiv.</div>
 
 <script>
 /* ═══════════ IMAGES — cleaning workers & supplies only ═══════════
